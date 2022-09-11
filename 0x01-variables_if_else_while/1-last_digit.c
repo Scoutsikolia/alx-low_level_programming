@@ -1,7 +1,10 @@
 /*
- *file 0-positive_or_negative.c
  *
- */
+ * *file 0-positive_or_negative.c
+ *
+ * *
+ *
+ * */
 
 
 
@@ -15,13 +18,15 @@
 
 /**
  *
- *main - prints a random number and sates whether
+ * *main - prints a random number and sates whether
  *
  * *it is positive, negative, or zero
  *
- *Return: Always 0.
+ * *
  *
- */
+ * *Return: Always 0.
+ *
+ * */
 
 int main(void)
 
