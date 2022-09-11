@@ -12,7 +12,7 @@
 
 
 
-/*
+/**
  *main - prints a random number and sates whether 
  *it is positive, negative, or zero
  *
@@ -31,15 +31,20 @@ int main(void)
 
 	n = rand() - RAND_MAX / 2;
 
-	if(n > 0) {
+	if (n > 0) 
+	{
 
 		printf("%i is positive\n", n);
 
-	}else if(n==0){
+	}
+	else if (n == 0)
+	{
 
 		printf("%i is zero\n", n);
 
-	}else {
+	}
+	else 
+	{
 
 		printf("%i is negative\n", n);
 
