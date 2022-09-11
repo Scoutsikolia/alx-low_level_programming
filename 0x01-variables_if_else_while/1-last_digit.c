@@ -35,7 +35,7 @@ if (n % 10 > 5)
 
 }
 
-else if ( n % 10 == 0)
+else if (n % 10 == 0)
 {
 	printf("%d and is 0\n", n % 10);
 
