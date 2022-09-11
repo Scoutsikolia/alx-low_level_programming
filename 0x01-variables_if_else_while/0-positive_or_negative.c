@@ -13,7 +13,7 @@
 
 
 /**
- *main - prints a random number and sates whether 
+ *main - prints a random number and sates whether
  *it is positive, negative, or zero
  *
  *Return: Always 0.
@@ -31,7 +31,7 @@ int main(void)
 
 	n = rand() - RAND_MAX / 2;
 
-	if (n > 0) 
+	if (n > 0)
 	{
 
 		printf("%i is positive\n", n);
@@ -43,7 +43,7 @@ int main(void)
 		printf("%i is zero\n", n);
 
 	}
-	else 
+	else
 	{
 
 		printf("%i is negative\n", n);
