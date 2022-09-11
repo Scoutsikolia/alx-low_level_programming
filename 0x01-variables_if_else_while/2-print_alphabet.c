@@ -9,7 +9,7 @@
  * main - prints the alphabet in lowercase,
  * followed by a new line
  *
- * return: Always 0.
+ *Return: Always 0.
 */
 
 int main(void)
