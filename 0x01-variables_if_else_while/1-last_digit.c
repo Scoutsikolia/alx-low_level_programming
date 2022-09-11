@@ -1,12 +1,7 @@
 /*
+ *file 0-positive_or_negative.c
  *
- * *file 0-positive_or_negative.c
- *
- * *
- *
- * */
-
-
+ */
 
 #include <stdlib.h>
 
@@ -14,60 +9,45 @@
 
 #include <stdio.h>
 
-
-
 /**
+ *main - prints a random number and sates whether
  *
- * *main - prints a random number and sates whether
+ *it is positive, negative, or zero
  *
- * *it is positive, negative, or zero
- *
- * *
- *
- * *Return: Always 0.
- *
- * */
+ *Return: Always 0.
+ */
 
 int main(void)
 
 {
-
-		int n;
-
+	int n;
 
 
-			srand(time(0));
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	
+	printf("Last digit of %i is", n);
 
-				n = rand() - RAND_MAX / 2;
+	int d = n % 10;
 
-					printf("Last digit of %i is", n);
+	if (d > 5)
 
-						int d = n % 10;
+    {
+        printf("%d and is greater than 5\n", d);
 
-							if (d > 5)
+    }
 
-								    {
+	else if ( d == 0)
+    {
+        printf("%d and is 0\n", d);
 
-									            printf("%d and is greater than 5\n", d);
+    }
 
-										        }
+	else if (0 != d < 6)
+    {
 
-							    else if ( d == 0)
+        printf("%d and is less than 6 and not 0\n", d);
 
-								        {
-
-										        printf("%d and is 0\n", d);
-
-											    }
-
-							        else if (0 != d < 6)
-
-									    {
-
-										            printf("%d and is less than 6 and not 0\n", d);
-
-											        }
-
-									return (0);
-
+    }
+	return (0);
 }
