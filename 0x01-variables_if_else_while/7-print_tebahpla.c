@@ -22,18 +22,12 @@ int main(void)
 
 		char letter;
 
+		for (letter = 'z'; letter >= 'a'; letter--)
 
+		putchar(letter);
 
-			for (letter = 'z'; letter >= 'a'; letter--)
+		putchar('\n');
 
-						putchar(letter);
-
-
-
-				putchar('\n');
-
-
-
-					return (0);
+		return (0);
 
 }
