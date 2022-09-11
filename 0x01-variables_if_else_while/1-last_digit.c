@@ -41,7 +41,7 @@ int main(void)
 
     }
 
-	else if ((n % 10) < 6 (n % 10) != 0)
+	else if ((n % 10) < 6 && (n % 10) != 0)
     {
 
         printf("%d and is less than 6 and not 0\n", n % 10);
