@@ -1,3 +1,8 @@
+/*
+ * file - 0-main.c
+ *
+*/
+
 #include "main.h"
 
 
@@ -14,7 +19,6 @@
 int main(void)
 
 {
-
 	int i;
 
 	i = 0;
